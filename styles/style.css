@@ -5,3 +5,83 @@
   font-weight: 400;
   font-style: normal;
 }
+.header{
+    /* width: 1160px; */
+}
+/* Shared styles */
+.display-flex{
+    display: flex;
+}
+
+/* Navbar Styles */
+.barnd-logo{
+    align-items: center;
+}
+.header-menu{
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+.menu-item{
+    gap: 32px;
+    list-style: none;
+}
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    gap: 186px;
+    margin: 20px 140px 18px 140px;
+    
+}
+nav a{
+    text-decoration: none;
+}
+
+/* navbar text decoration */
+.logo-text{
+    width: 8em;
+    font-size: 2em;
+    font-weight: 700;
+    color: rgb(17, 17, 17);
+    
+}
+.nav-btn{
+    width: 180px;
+    border-radius: 12px;
+    border: none;
+    padding: 10px;
+    color:rgb(255, 255, 255) ;
+    background: rgb(254, 163, 1);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.home-link{
+   width: 58px;
+   font-size: 20px;
+   font-weight: 700; 
+   color: rgb(254, 163, 1);
+}
+.about-link{
+    width: 57px;
+    font-size: 20px;
+    font-weight: 500px;
+    color: rgb(1, 172, 253);
+}
+.facilities-link{
+    width: 80px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(5, 212, 223);
+}
+.admission-link{
+    width: 96px;
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(93, 88, 239) ;
+}
+
+/* media query for navbar */
+
+
