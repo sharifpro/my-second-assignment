@@ -9,7 +9,7 @@
     /* width: 1160px; */
 }
 /* Shared styles */
-.display-flex{
+.display-flex, .main-title{
     display: flex;
 }
 
@@ -82,6 +82,145 @@ nav a{
     color:rgb(93, 88, 239) ;
 }
 
+/* hero section decoration */
+.hero-container{
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 141px;
+    margin-right: 140.39px;
+    gap: 50px;
+
+}
+/* hero section text decoration */
+.hero-text{
+    gap:24px;
+}
+.hero-title{
+    width: 640px;
+    font-size: 56px;
+    font-weight: 700;
+    color: rgb(17, 17, 17);
+}
+.empower-text{
+    color: rgb(254, 163, 1);
+}
+.towards-text{
+    color:rgb(1, 172, 253)
+}
+.hero-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(17, 17, 17);
+
+}
+.hero-btn{
+    width: 103px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    width: 197px;
+
+}
+
+/* main section design */
+.main-card{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-left:140px;
+    margin-right: 140px;
+    margin-bottom: 200px;
+}
+.main-title{
+    justify-content: center;
+    gap: 80px;
+    padding: 60px 0px 60px 0px;
+    /* margin-top: 80px; */
+    font-size: 46px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+
+}
+
+main{
+    background-image: url(../assets/bg.png)
+    
+}
+.card-kinder{
+    width: 367px;
+    height: 476.78px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    text-align: center;
+
+    
+}
+.kinder-img{
+    padding: 53px 117px 32px 117px;
+}
+.card-title{
+    font-size: 24.52px;
+    font-weight: 700;  
+}
+.card-description{
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 15.09px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.kinder-read-more{
+    color: rgb(100, 200, 255);
+    font-size: 15.09px;
+    font-weight: 700;
+    padding-top: 40px;
+}
+
+.card-elementory{
+    width: 367px;
+    height: 476.78px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    text-align: center;
+}
+.elementary-read-more{
+    color: rgb(240, 170, 0);
+    font-size: 15.09px;
+    font-weight: 700;
+    padding-top: 40px;
+
+}
+.card-middle{
+    width: 367px;
+    height: 476.78px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    text-align: center;
+}
+.card-middle-read-more{
+    color:rgb(135, 0, 255);
+    font-size: 15.09px;
+    font-weight: 700;
+    padding-top: 40px;
+
+}
+
+Section two design
 /* media query for navbar */
 
 
