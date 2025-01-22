@@ -450,6 +450,11 @@ footer ul li{
 
 
 }
+@media screen and (min-width:576px) and (max-width:1920px){
+    .menu-icon{
+        display: none;
+    }
+}
 /* media query for navbar */
 @media screen and (max-width: 576px){
  nav .logo-text, .header-menu,.nav-btn{
@@ -497,8 +502,12 @@ footer ul li{
 }
 .stories-cards{
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    margin: 0 auto;
+    grid-template-columns: repeat(1,1fr);
+    
+}
+.section-two-btn{
+    margin-left: 120px;
+    margin-right:0px;
 }
 .btn-two{
     flex-direction: row;
@@ -521,14 +530,5 @@ footer ul li{
 }
 
 
-    
-
-
-@media screen and (min-width:576px) and (max-width:1920px){
-    .menu-icon{
-        display: none;
-
-    } 
-}
 
 
