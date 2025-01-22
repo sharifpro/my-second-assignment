@@ -6,7 +6,7 @@
   font-style: normal;
 }
 .header{
-    /* width: 1160px; */
+    max-width: 1920px;
 }
 /* Shared styles */
 .display-flex, .main-title{
@@ -25,6 +25,12 @@
 .menu-item{
     gap: 32px;
     list-style: none;
+}
+.menu-icon{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+
 }
 
 .navbar{
@@ -146,7 +152,9 @@ nav a{
 }
 
 main{
+    max-width: 1920px;
     background-image: url(../assets/bg.png)
+    
     
 }
 .card-kinder{
@@ -274,5 +282,17 @@ main{
 }
 
 /* media query for navbar */
+@media screen and (max-width: 576px){
+
+}
+    
+
+
+@media screen and (min-width:576px) and (max-width:1920px){
+    .menu-icon{
+        display: none;
+
+    } 
+}
 
 
